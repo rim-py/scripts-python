@@ -1,9 +1,9 @@
-#inverser une chaine de caractere
+#inverser une chaine de caractère
 def inverseChaine(ch):
-    inverse='' #creer une chaine vide
+    inverse='' #créer une chaine vide
     i=1
     while i<=len(ch):
-        inverse+=ch[len(ch)-i] #commencer par ernier caractere
+        inverse+=ch[len(ch)-i] #commencer par dernier caractère
         i+=1
     return inverse
 print(inverseChaine('bonjour')) #affiche'ruojnob'
